@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reportinvoice_subreport1" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="aae70cdd-9013-41b9-a7f1-5e9b6c2742e0">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<subDataset name="New Dataset 1" uuid="71f4efe3-1eb0-41e7-948e-68a49bc90add">
+		<queryString language="SQL">
+			<![CDATA[select  * from datecwise;]]>
+		</queryString>
+		<field name="id" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="fromdate" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="todate" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<parameter name="fromd" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="tod" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[select * from datecwise;]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="fromdate" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="todate" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageFooter>
+		<band height="159" splitType="Stretch">
+			<staticText>
+				<reportElement x="45" y="12" width="189" height="18" forecolor="#006699" uuid="71fbf7fe-1c30-4b68-8274-7675b1c9d538"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SK SOFTWARE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="45" y="30" width="189" height="13" uuid="76860199-40e9-4bae-82b6-819bf3500508"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[123A Block Malviya Nagar Sector 5 Jaipur]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="45" y="43" width="189" height="13" uuid="5fce0316-52be-4224-8137-a343faaecbb9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Mob No : 9558581102, 8739909247]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="45" y="56" width="189" height="13" uuid="21a91a0a-67cd-4e56-9f87-79a177b3e882"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Email : sutharkapil61@gmail.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="45" y="69" width="189" height="13" uuid="9001d561-0e86-4651-988b-da7f59b5d196"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Github : KAPIL61]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="351" y="30" width="164" height="20" uuid="24cd5718-394c-4a42-b414-1d7c46e9d06a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[OVERALL CUSTOMER WISE ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="351" y="50" width="164" height="20" uuid="ec05b9d3-af45-46bb-a7f5-416e44b116fa"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[REPORT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="0" height="104" uuid="0c8502c1-7280-4ccc-ac8e-4707c62988d0"/>
+				<box>
+					<leftPen lineWidth="0.75"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="555" y="0" width="0" height="104" uuid="7de5c630-bca2-4861-b941-a094008190aa"/>
+				<box>
+					<leftPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="0" uuid="2ba97f8c-610b-412d-be7e-cf81e60519ea"/>
+				<box>
+					<topPen lineWidth="0.75"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="0" width="0" height="102" uuid="8fb2e868-6855-458f-9e37-daab24a81100"/>
+				<box>
+					<leftPen lineWidth="0.75"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="102" width="555" height="0" uuid="de3dfc6f-7f19-4fe4-92f2-3411e5e86b49"/>
+				<box>
+					<bottomPen lineWidth="0.75"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="124" width="55" height="34" forecolor="#FFFFFF" backcolor="#0099CC" uuid="fa2e60c6-b987-44a0-8319-a2a4e0627287"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75" lineColor="#000000"/>
+					<leftPen lineWidth="0.75" lineColor="#000000"/>
+					<bottomPen lineWidth="0.75" lineColor="#000000"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Bill No]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="55" y="124" width="95" height="34" forecolor="#FFFFFF" backcolor="#0099CC" uuid="1fd50624-1f11-4511-8eda-d4c8cb15927d"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75" lineColor="#000000"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75" lineColor="#000000"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="150" y="124" width="141" height="34" forecolor="#FFFFFF" backcolor="#0099CC" uuid="5e89b88a-c476-453f-82fb-45721cd49de8"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75" lineColor="#000000"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75" lineColor="#000000"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Coustome Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="291" y="124" width="60" height="34" forecolor="#FFFFFF" backcolor="#0099CC" uuid="75cee319-2370-4608-af83-acbe685da8a6"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75" lineColor="#000000"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75" lineColor="#000000"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CGST]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="351" y="124" width="58" height="34" forecolor="#FFFFFF" backcolor="#0099CC" uuid="112c892e-7d45-44bc-82f4-5815b44ec918"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75" lineColor="#000000"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75" lineColor="#000000"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SGST]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="409" y="124" width="64" height="34" forecolor="#FFFFFF" backcolor="#0099CC" uuid="e0fb1a5b-b7df-4cae-b96f-de8a10ecac5e"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75" lineColor="#000000"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75" lineColor="#000000"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[IGST]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="473" y="124" width="82" height="34" forecolor="#FFFFFF" backcolor="#0099CC" uuid="8af6839a-b94f-43de-a41a-d6e5ce72ef6f"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75" lineColor="#000000"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75" lineColor="#000000"/>
+					<rightPen lineWidth="0.75" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sales AMT]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="138" y="104" width="70" height="20" uuid="86810590-7a5e-401d-a46e-292214ad417e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{fromdate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="409" y="104" width="85" height="20" uuid="9b351df2-f809-4974-8a1a-e6b3cb5841d1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{todate}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="104" width="138" height="20" uuid="279ab858-654d-4626-98ee-1a2aa93a39ab"/>
+				<box>
+					<leftPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[                    From Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="104" width="138" height="20" uuid="e73f66b6-cafa-4ba8-b0af-ed07c42cc7d9"/>
+				<box>
+					<leftPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[                       To Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="545" y="104" width="10" height="20" uuid="a02939b6-e27e-4612-b7fd-b1ae65b1fad3"/>
+				<box>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>
