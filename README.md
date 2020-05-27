@@ -27,7 +27,7 @@ Tools :-
 - Invoice Tab for new invoice generation and printing also update,delete and print old(previous) bills by just clicking on the find buttonthen selecting the bill that we want.
 ![2](https://user-images.githubusercontent.com/32435747/83000898-9bb9c300-a028-11ea-97fd-a86d0c05deea.jpg)
 
-- Find previous(old) bills easily by bill no,customer name,customer code,bill date and also amount.
+- Find previous(old) bills easily by any bill no,customer name,customer code,bill date and also as well as amount.
 ![3](https://user-images.githubusercontent.com/32435747/83001730-c5271e80-a029-11ea-84c6-e5c40f0084f6.jpg)
 
 - This is old bill found by find button we can see all details also we can print out of it.
